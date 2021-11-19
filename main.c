@@ -94,6 +94,25 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
+	/*
+   	 follow the close to far order
+	1st LED is connect with GPIOC_13
+	2nd LED is connect with GPIOB_15
+	3rd LED is connect with GPIOA_1
+	4th LED is connect with GPIOA_2
+	5th LED is connect with GPIOA_3
+	6th LED is connect with GPIOA_4
+	7th LED is connect with GPIOA_5
+	8th LED is connect with GPIOA_6
+	9th LED is connect with GPIOA_7
+	10th LED is connect with GPIOB_0
+	11th LED is connect with GPIOB_1
+	12th LED is connect with GPIOA_10
+	13th LED is connect with GPIOA_11
+	14th LED is connect with GPIOA_12
+	15th LED is connect with GPIOA_13
+	16th LED is connect with GPIOA_14
+	*/ 
 		HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_RESET);
 		HAL_Delay(100);
 		HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_SET);
